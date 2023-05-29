@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    
+</head>
+<body>
+    <h1>Application de quiz en anglais </h1>
+    <div class="quiz-container" id="quiz">
+        <h2 id="question"> Questinnaire .......... ??</h2>
+        
+        <ul>
+            <li>
+                <input 
+                    class="answer" 
+                    type="radio" 
+                    name="answer" 
+                    id="a">
+                <label id="a_text" for="a">Question a</label>
+            </li>
+            
+            <li>
+                <input 
+                    class="answer" 
+                    type="radio" 
+                    name="answer" 
+                    id="b">
+                <label  id="b_text" for="b">Question b</label>
+            </li>
+            <li>
+                <input 
+                    class="answer" 
+                    type="radio" 
+                    name="answer" 
+                    id="c">
+                <label  id="c_text" for="c">Question c</label>
+            </li>
+            <li>
+                <input 
+                    class="answer" 
+                    type="radio" 
+                    name="answer" 
+                    id="d">
+                <label id="d_text" for="d">Question d</label>
+            </li>
+        </ul>
+        <button id="submitBtn" type="submit">Valider</button>
+    </div>
+    <script src="quiz.js" ></script>
+</body>
+</html>
