@@ -29,12 +29,12 @@ onst quizData = [
     const answerEls = document.querySelectorAll(".answer");
     const quiz = document.getElementById("quiz");
 ```
-#### On créer deux variable suivant
+#### On crée deux variable suivant
 ```js
 let currentData = 0;
 let score = 0;
 ```
-### On creer une fonction ShowQuiz
+### On cree une fonction ShowQuiz
 ```js
     function showQuiz(){
         deselectAnswer();
